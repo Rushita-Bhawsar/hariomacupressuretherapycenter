@@ -213,7 +213,7 @@
             <li class="nav-item">
               <a class="nav-link <?php if ($currentPage == 'index') {
                                     echo 'active';
-                                  } ?>" href="index.php">Home</a>
+                                  } ?>" href="index.php">Homekfjgkfjkfj</a>
             </li>
             <li class="nav-item">
               <a class="nav-link <?php if ($currentPage == 'about-us') {
