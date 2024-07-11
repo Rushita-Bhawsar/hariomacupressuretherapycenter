@@ -37,7 +37,7 @@ jobs:
         username: u164850130.hariom
         password: ${{ n[L@je6-g~BY }}
         protocol: ftps
-        server-dir: public_html/hariomacupressurecentre-push-ftp/
+        server-dir: public_php/hariomacupressurecentre-push-ftp/
           source: ./
           destination: ./_site
       - name: Upload artifact
