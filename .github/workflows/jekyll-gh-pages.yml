@@ -33,9 +33,11 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          server: ftp.hariomacupressurecentre.com
-          username: u164850130.hariom
-          password: ${{ n[L@je6-g~BY }}
+          server:  ftp.hariomacupressurecentre.com
+        username: u164850130.hariom
+        password: ${{ n[L@je6-g~BY }}
+        protocol: ftps
+        server-dir: public_html/hariomacupressurecentre-push-ftp/
           source: ./
           destination: ./_site
       - name: Upload artifact
